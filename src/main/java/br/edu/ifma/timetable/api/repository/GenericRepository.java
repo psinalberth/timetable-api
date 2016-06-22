@@ -14,6 +14,10 @@ public abstract class GenericRepository<T> {
 	
 	private Class<T> clazz;
 	
+	public GenericRepository() {
+		
+	}
+	
 	public GenericRepository(Class<T> clazz) {
 		this.clazz = clazz;
 	}
